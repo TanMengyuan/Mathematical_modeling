@@ -18,20 +18,20 @@ pos = [
     ['02', '北京&天津', [116.80834, 39.525, 32.550224, 32.550224, 9.3263]],
     ['03', '西安', [108.95, 34.26667, 8.467837, 37.327378, 4.2335]],
     ['04', '郑州', [113.65, 34.76667, 8.626505, 94.023567, 4.9192]],
-    ['05', '上海',	[121.43333,	34.5, 23.019148, 23.019148, 11.4235]],
-    ['06', '成都',	[104.06667,	30.66667, 14.047625, 80.4182, 8.2939]],
-    ['07', '重庆',	[106.45, 29.56667, 28.8462, 28.8462, 6.4946]],
-    ['08', '武汉',	[114.31667, 30.51667, 9.785392, 57.23774, 7.6144]],
-    ['09', '拉萨',	[91, 29.6, 0.559423, 3.002166, 0.2526]],
-    ['10', '昆明',	[102.73333, 25.05, 6.432, 45.966, 2.8970]],
-    ['11', '广州&深圳',	[113.65, 22.89167, 23.058738, 104.303132, 23.8720]]
-]   # [id, name, [longitude, latitude, population, province_population, internet_index]]
+    ['05', '上海', [121.43333, 34.5, 23.019148, 23.019148, 11.4235]],
+    ['06', '成都', [104.06667, 30.66667, 14.047625, 80.4182, 8.2939]],
+    ['07', '重庆', [106.45, 29.56667, 28.8462, 28.8462, 6.4946]],
+    ['08', '武汉', [114.31667, 30.51667, 9.785392, 57.23774, 7.6144]],
+    ['09', '拉萨', [91, 29.6, 0.559423, 3.002166, 0.2526]],
+    ['10', '昆明', [102.73333, 25.05, 6.432, 45.966, 2.8970]],
+    ['11', '广州&深圳', [113.65, 22.89167, 23.058738, 104.303132, 23.8720]]
+]  # [id, name, [longitude, latitude, population, province_population, internet_index]]
 rank_value16 = [[644.1632, 32, '07', '06'], [536.2208, 32, '04', '02'], [500.128, 32, '07', '03'],
-              [437.968, 16, '02', '05'], [412.6496, 16, '07', '11'], [297.704, 16, '00', '02'],
-              [294.0064, 32, '04', '08'], [285.552, 16, '08', '02'], [273.4976, 32, '04', '03'],
-              [268.8144, 16, '07', '08'], [265.6336, 16, '03', '02'], [252.3952, 16, '07', '04'],
-              [245.1384, 8, '07', '02'], [217.9408, 16, '07', '10'], [80.4944, 8, '02', '01'],
-              [34.1376, 8, '09', '02']]
+                [437.968, 16, '02', '05'], [412.6496, 16, '07', '11'], [297.704, 16, '00', '02'],
+                [294.0064, 32, '04', '08'], [285.552, 16, '08', '02'], [273.4976, 32, '04', '03'],
+                [268.8144, 16, '07', '08'], [265.6336, 16, '03', '02'], [252.3952, 16, '07', '04'],
+                [245.1384, 8, '07', '02'], [217.9408, 16, '07', '10'], [80.4944, 8, '02', '01'],
+                [34.1376, 8, '09', '02']]
 rank_value16_prov = [[2347.52, 32, '08', '04'], [1895.7536, 32, '04', '03'], [1770.2944, 32, '04', '02'],
                      [1541.2448, 32, '07', '06'], [1391.2832, 16, '06', '04'], [1236.2608, 16, '11', '08'],
                      [1107.8656, 16, '11', '10'], [1085.5216, 16, '08', '06'], [1050.0448, 32, '07', '03'],
@@ -40,12 +40,12 @@ rank_value16_prov = [[2347.52, 32, '08', '04'], [1895.7536, 32, '04', '03'], [17
                      [141.5648, 8, '11', '09']]
 min_connect = [[644.1632, 32, '07', '06'], [536.2208, 32, '04', '02'], [500.128, 32, '07', '03'],
                [437.968, 16, '02', '05'], [412.6496, 16, '07', '11'], [297.704, 16, '00', '02'],
-               [294.0064, 32, '04', '08'], [273.4976, 32, '04', '03'],[217.9408, 16, '07', '10'],
+               [294.0064, 32, '04', '08'], [273.4976, 32, '04', '03'], [217.9408, 16, '07', '10'],
                [80.4944, 8, '02', '01'], [34.1376, 8, '09', '02']]
 min_connect_prov = [[2347.52, 32, '08', '04'], [1895.7536, 32, '04', '03'], [1770.2944, 32, '04', '02'],
-                     [1541.2448, 32, '07', '06'], [1391.2832, 16, '06', '04'], [1236.2608, 16, '11', '08'],
-                     [1107.8656, 16, '11', '10'], [744.36, 16, '05', '04'], [565.0224, 16, '02', '00'],
-                     [362.3008, 8, '04', '01'], [141.5648, 8, '11', '09']]
+                    [1541.2448, 32, '07', '06'], [1391.2832, 16, '06', '04'], [1236.2608, 16, '11', '08'],
+                    [1107.8656, 16, '11', '10'], [744.36, 16, '05', '04'], [565.0224, 16, '02', '00'],
+                    [362.3008, 8, '04', '01'], [141.5648, 8, '11', '09']]
 min_connect_inter = [[234.8576, 32, '07', '06'], [216.7456, 32, '04', '02'], [215.7152, 16, '11', '08'],
                      [199.224, 16, '11', '07'], [195.8464, 32, '08', '04'], [167.7952, 32, '07', '03'],
                      [165.1488, 16, '05', '02'], [133.0576, 16, '11', '10'], [71.0256, 16, '02', '00'],
@@ -61,7 +61,6 @@ else:
 
 if IS_INTERNET_INDEX:
     value_list = min_connect_inter
-
 
 
 def dijkstra_raw(edges, from_node, to_node):
@@ -81,22 +80,23 @@ def dijkstra_raw(edges, from_node, to_node):
                     heappush(q, (cost + c, v2, path))
     return float("inf"), []
 
+
 def dijkstra(edges, from_node, to_node):
     len_shortest_path = -1
     ret_path = []
     length, path_queue = dijkstra_raw(edges, from_node, to_node)
     if len(path_queue) > 0:
-        len_shortest_path = length  ## 1. Get the length firstly;
-        ## 2. Decompose the path_queue, to get the passing nodes in the shortest path.
+        len_shortest_path = length
         left = path_queue[0]
-        ret_path.append(left)  ## 2.1 Record the destination node firstly;
+        ret_path.append(left)
         right = path_queue[1]
         while len(right) > 0:
             left = right[0]
-            ret_path.append(left)  ## 2.2 Record other nodes, till the source-node.
+            ret_path.append(left)
             right = right[1]
-        ret_path.reverse()  ## 3. Reverse the list finally, to make it be normal sequence.
+        ret_path.reverse()
     return len_shortest_path, ret_path
+
 
 def get_edges(value_list):
     edges = []
@@ -105,6 +105,7 @@ def get_edges(value_list):
         edges.append((value_list[i][3], value_list[i][2], value_list[i][0]))
 
     return edges
+
 
 def get_all_path(edges, pos_list):
     all_path = []
@@ -121,17 +122,19 @@ def get_all_path(edges, pos_list):
 
     return all_path
 
+
 edges = get_edges(value_list)
 all_path = get_all_path(edges, pos)
+
+
 # print('all_path')
 # for line in all_path:
 #     print(line)
 # [[from, to, sum_value, shortest_path]] every city connected to each others
 
 
-
 def get_distribute(pos, ratio):
-    all_cap = []    # [cap_of_city1, cap_of_city2, ... ,cap_of_cityn]
+    all_cap = []  # [cap_of_city1, cap_of_city2, ... ,cap_of_cityn]
     for i in range(len(pos)):
         id = pos[i][0]
         sum_cap = 0
@@ -162,6 +165,8 @@ def get_distribute(pos, ratio):
         for j in range(len(distribute[i])):
             distribute[i][j] = min(distribute[i][j], distribute[j][i])
     return distribute
+
+
 # [[cap"00 to 00", cap"00 to 01", ... , cap"00 to 11"],
 # [cap"01 to 00", cap"01 to 01", ... , cap"01 to 11"], [ ... ], ... ]
 # min(cap"i to j", cap"j to i)
@@ -242,10 +247,6 @@ for key in gap_dic.keys():
 #     print(line)
 
 
-
-
-
-
 if NEED_SAVE_XLS:
     # ==================== save module =================================
     import xlrd
@@ -267,7 +268,8 @@ if NEED_SAVE_XLS:
     # for i in range(len(save_list)):
     #     for j in range(len(save_list[i])):
     #         sheet1.write(i, j, save_list[i][j])
-    # sheet1.write(len(save_list) + 1, 0, r'说明：下面信息分别为：”起点“-”终点“	  分配给该线路的流量   	 原本线路最大容量		超出的流量（负值表示未超出）		需要增加n条线路		增加线路后多出的流量')
+    # sheet1.write(len(save_list) + 1, 0, r'说明：下面信息分别为：”起点“-”终点“	  分配给该线路的流量
+    # 原本线路最大容量		超出的流量（负值表示未超出）		需要增加n条线路		增加线路后多出的流量')
 
     # # save cap
     for i in range(len(dis)):
@@ -281,9 +283,3 @@ if NEED_SAVE_XLS:
 
     f.save(save_path)
     print('save successful on ', save_path)
-
-
-
-
-
-
